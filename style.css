@@ -113,7 +113,7 @@ a {
 .about-image img {
   width: 100%;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
-  margin-top: 30px;
+  margin-botto: 30px;
   margin-bottom: 30px;
 }
 
@@ -139,30 +139,27 @@ a {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px; 
-  width: 1400px; 
+  width: 1300px; 
   height: 1000px;
 }
 
 .card {
   flex: 0 0 calc(30% - 20px);
-  border-width: calc(30% - 20px);
   height: calc(30% - 20px);
   cursor: pointer;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.4) 5px 3px 8px;
-  border-radius: 20px;
-  transition: all 0.5s;
-  transform: scale(1);
+  border-radius: 5px;
 }
 
 .card:hover {
   background: burlywood;
   border-width: calc(50% - 20px);
   border-radius: 10px;
-  transform: scale(1.1);
+  scale: 1.0;
   transition: all 0.5s;
-  height: calc(40% - 20px);
-  flex: 0 0 calc(40% - 20px );
+  height: calc(32% - 20px);
+  flex: 0 0 calc(32% - 20px );
   
 
 }
